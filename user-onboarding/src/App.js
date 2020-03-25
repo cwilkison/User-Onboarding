@@ -1,14 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import React, { useState, useEffect } from "react";
-import * as yup from "yup";
-import axios from "axios";
-import Form from './Form.js';
-
+import Form from './Form';
 
 function App() {
   return (
     <div className="App">
+     <h1>Welcome to my Form!</h1>
      <Form/>
     </div>
   );
